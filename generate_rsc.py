@@ -23,7 +23,7 @@ import requests
 import json
 
 # 下载 geoip 数据
-url = "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/co.json"
+url = "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geoip/cn.json"
 response = requests.get(url)
 
 # 确保请求成功
