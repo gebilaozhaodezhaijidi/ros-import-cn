@@ -6,27 +6,15 @@ url = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sin
 response = requests.get(url)
 data = response.json()
 
-# # 提取 IPv4 地址
-# ipv4_addresses = data.get("ipv4", [])
+# 提取 IPv4 地址
+ipv4_addresses = data.get("ipv4", [])
 
-# # 格式化为 RouterOS 的地址列表命令
-# formatted_lines = ["/ip firewall address-list"]
-# formatted_lines += [f"add list=CN address={ip}" for ip in ipv4_addresses]
-
-# # 将内容写入 CN.rsc 文件
-# with open("CN.rsc", "w") as file:
-#     file.write("\n".join(formatted_lines))
-
-# print("CN.rsc 文件已生成")
-# Filter out IPv6 addresses
-ipv4_addresses = [ip for ip in ipv4_addresses if ":" not in ip]
-
-# Format as RouterOS address-list commands
+# 格式化为 RouterOS 的地址列表命令
 formatted_lines = ["/ip firewall address-list"]
 formatted_lines += [f"add list=CN address={ip}" for ip in ipv4_addresses]
 
-# Save to CN.rsc file
-with open("CN.rsc", "w") as f:
-    f.write("\n".join(formatted_lines))
+# 将内容写入 CN.rsc 文件
+with open("CN.rsc", "w") as file:
+    file.write("\n".join(formatted_lines))
 
-print("CN.rsc file updated to exclude IPv6 addresses.")
+print("CN.rsc 文件已生成")
