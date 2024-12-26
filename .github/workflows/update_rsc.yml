@@ -27,7 +27,7 @@ jobs:
       - name: Generate CN.rsc
         run: python generate_rsc.py
 
-      推送更新到仓库
+      # 推送更新到仓库
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
