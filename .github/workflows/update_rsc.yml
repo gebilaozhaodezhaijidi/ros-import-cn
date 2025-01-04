@@ -2,7 +2,7 @@ name: Generate CN.rsc
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天 00:00 UTC 执行
+    - cron: "00 23 * * *" # 7:00 AM UTC+8
   workflow_dispatch: # 手动触发支持
 
 jobs:
