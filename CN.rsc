@@ -67,7 +67,7 @@ add list=CN address=5.154.155.58/31
 add list=CN address=5.154.156.50/31
 add list=CN address=5.154.156.54/31
 add list=CN address=5.175.237.0/24
-add list=CN address=5.175.238.0/24
+add list=CN address=5.175.238.0/23
 add list=CN address=8.25.82.0/24
 add list=CN address=8.38.121.0/24
 add list=CN address=8.45.52.0/24
