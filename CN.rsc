@@ -5379,6 +5379,8 @@ add list=CN address=163.181.242.0/23
 add list=CN address=163.181.244.0/23
 add list=CN address=163.181.246.0/24
 add list=CN address=163.181.248.0/22
+add list=CN address=163.181.253.0/24
+add list=CN address=163.181.255.0/24
 add list=CN address=163.204.0.0/16
 add list=CN address=163.228.0.0/16
 add list=CN address=163.244.246.0/24
