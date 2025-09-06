@@ -247,6 +247,7 @@ add list=CN address=36.255.176.0/23
 add list=CN address=36.255.179.0/24
 add list=CN address=36.255.192.0/24
 add list=CN address=38.111.220.0/23
+add list=CN address=38.211.199.0/24
 add list=CN address=39.0.0.0/24
 add list=CN address=39.0.2.0/23
 add list=CN address=39.0.4.0/22
@@ -7014,6 +7015,7 @@ add list=CN address=211.157.0.0/16
 add list=CN address=211.158.0.0/15
 add list=CN address=211.160.0.0/13
 add list=CN address=212.64.0.0/17
+add list=CN address=212.100.186.0/24
 add list=CN address=212.129.128.0/17
 add list=CN address=213.199.169.0/24
 add list=CN address=218.0.0.0/11
