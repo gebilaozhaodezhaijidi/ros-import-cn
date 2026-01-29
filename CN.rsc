@@ -70,6 +70,7 @@ add list=CN address=5.160.111.0/24
 add list=CN address=5.181.226.0/23
 add list=CN address=8.21.143.0/24
 add list=CN address=8.128.0.0/10
+add list=CN address=11.210.240.0/23
 add list=CN address=13.104.184.80/28
 add list=CN address=14.0.0.0/21
 add list=CN address=14.0.12.0/22
@@ -173,6 +174,8 @@ add list=CN address=17.235.160.0/20
 add list=CN address=23.133.188.0/24
 add list=CN address=23.161.8.0/24
 add list=CN address=23.236.111.0/24
+add list=CN address=26.234.64.0/22
+add list=CN address=26.241.140.0/22
 add list=CN address=27.0.128.0/21
 add list=CN address=27.0.160.0/21
 add list=CN address=27.0.188.0/22
@@ -268,7 +271,6 @@ add list=CN address=38.111.220.0/23
 add list=CN address=38.134.56.0/22
 add list=CN address=38.247.24.0/22
 add list=CN address=38.247.32.0/23
-add list=CN address=38.247.35.0/24
 add list=CN address=38.247.36.0/22
 add list=CN address=39.0.0.0/24
 add list=CN address=39.0.2.0/23
@@ -1226,8 +1228,7 @@ add list=CN address=62.72.181.0/24
 add list=CN address=62.234.0.0/16
 add list=CN address=63.140.0.0/24
 add list=CN address=63.140.3.0/24
-add list=CN address=63.140.4.0/22
-add list=CN address=63.140.13.0/24
+add list=CN address=63.140.4.0/23
 add list=CN address=64.188.38.0/23
 add list=CN address=64.188.40.0/22
 add list=CN address=64.188.44.0/23
@@ -4983,7 +4984,6 @@ add list=CN address=129.227.192.0/23
 add list=CN address=129.227.195.0/24
 add list=CN address=130.36.146.0/23
 add list=CN address=130.214.218.0/23
-add list=CN address=131.221.82.0/24
 add list=CN address=131.228.96.0/23
 add list=CN address=131.253.12.0/29
 add list=CN address=131.253.12.80/28
@@ -4995,8 +4995,7 @@ add list=CN address=134.75.107.14/31
 add list=CN address=134.175.0.0/16
 add list=CN address=137.59.59.0/24
 add list=CN address=137.59.88.0/22
-add list=CN address=138.252.72.0/23
-add list=CN address=138.252.96.0/23
+add list=CN address=138.252.96.0/24
 add list=CN address=139.5.56.0/21
 add list=CN address=139.5.80.0/22
 add list=CN address=139.5.92.0/22
@@ -5087,7 +5086,6 @@ add list=CN address=144.48.204.0/22
 add list=CN address=144.48.208.0/21
 add list=CN address=144.48.252.0/22
 add list=CN address=144.52.0.0/16
-add list=CN address=144.79.4.0/23
 add list=CN address=144.79.10.0/23
 add list=CN address=144.79.70.0/24
 add list=CN address=144.123.0.0/16
@@ -5351,7 +5349,7 @@ add list=CN address=163.179.0.0/16
 add list=CN address=163.204.0.0/16
 add list=CN address=163.223.173.0/24
 add list=CN address=163.223.178.0/23
-add list=CN address=163.227.40.0/24
+add list=CN address=163.227.40.0/23
 add list=CN address=163.228.0.0/16
 add list=CN address=163.244.246.0/24
 add list=CN address=164.52.74.0/24
@@ -6186,9 +6184,7 @@ add list=CN address=203.7.200.0/24
 add list=CN address=203.8.0.0/24
 add list=CN address=203.8.8.0/24
 add list=CN address=203.8.23.0/24
-add list=CN address=203.8.24.0/23
-add list=CN address=203.8.27.0/24
-add list=CN address=203.8.28.0/23
+add list=CN address=203.8.25.0/24
 add list=CN address=203.8.30.0/24
 add list=CN address=203.8.70.0/24
 add list=CN address=203.8.82.0/24
@@ -6270,7 +6266,7 @@ add list=CN address=203.12.240.0/22
 add list=CN address=203.13.18.0/24
 add list=CN address=203.13.24.0/24
 add list=CN address=203.13.44.0/23
-add list=CN address=203.13.80.0/23
+add list=CN address=203.13.81.0/24
 add list=CN address=203.13.88.0/23
 add list=CN address=203.13.92.0/22
 add list=CN address=203.13.173.0/24
@@ -6921,7 +6917,6 @@ add list=CN address=203.95.224.0/19
 add list=CN address=203.99.16.0/20
 add list=CN address=203.99.80.0/20
 add list=CN address=203.100.32.0/20
-add list=CN address=203.100.50.0/23
 add list=CN address=203.100.54.0/24
 add list=CN address=203.100.58.0/24
 add list=CN address=203.100.60.0/24
@@ -6958,8 +6953,6 @@ add list=CN address=203.119.128.0/17
 add list=CN address=203.123.58.0/24
 add list=CN address=203.128.32.0/19
 add list=CN address=203.128.96.0/19
-add list=CN address=203.129.8.0/24
-add list=CN address=203.129.10.0/23
 add list=CN address=203.129.12.0/22
 add list=CN address=203.130.32.0/20
 add list=CN address=203.130.49.0/24
