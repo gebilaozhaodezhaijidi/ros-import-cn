@@ -18,4 +18,4 @@ https://github.com/MetaCubeX/meta-rules-dat
 /file remove [find name="CN.rsc"]
 }
 ```
-在system/scheduler/添加定时任务，该项目为每天早上7:00生成，建议设置成之后的时间
+在system/scheduler/添加定时任务，该项目会在每天早上7:00生成，建议设置之后的时间来执行上面的脚本
